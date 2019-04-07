@@ -28,6 +28,9 @@
 
 
 
+  <meta http-equiv="Cache-Control" content="no-transform">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
+
 
 
 
@@ -307,7 +310,7 @@
 
   
 
-  <a href="https://github.com/sawakonotsadako" class="github-corner" title="Follow me on GitHub" aria-label="Follow me on GitHub" rel="noopener" target="_blank"><svg width="80" height="80" viewbox="0 0 250 250" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"/><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"/><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"/></svg></a>
+  <span class="exturl github-corner" data-url="aHR0cHM6Ly9naXRodWIuY29tL3Nhd2Frb25vdHNhZGFrbw==" title="Follow me on GitHub" aria-label="Follow me on GitHub"><svg width="80" height="80" viewbox="0 0 250 250" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"/><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"/><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"/></svg></span>
 
 
 
@@ -354,11 +357,11 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">GitHub Pages with Hexo
+          <h2 class="post-title" itemprop="name headline">GitHub Pages with Hexo
 
               
             
-          </h1>
+          </h2>
         
 
         <div class="post-meta">
@@ -460,15 +463,15 @@
       
 
       
-        <p><a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages <i class="fa fa-external-link"></i></a></p>
+        <p><span class="exturl" data-url="aHR0cHM6Ly9wYWdlcy5naXRodWIuY29tLw==" title="https://pages.github.com/">GitHub Pages <i class="fa fa-external-link"></i><i class="fa fa-external-link"></i></span></p>
 <h2 id="Deploy-your-Hexo-Blog-to-GitHub-Pages"><a href="#Deploy-your-Hexo-Blog-to-GitHub-Pages" class="headerlink" title="Deploy your Hexo Blog to GitHub Pages"></a>Deploy your Hexo Blog to GitHub Pages</h2><h3 id="Install-hexo-deployer-git"><a href="#Install-hexo-deployer-git" class="headerlink" title="Install hexo-deployer-git"></a>Install hexo-deployer-git</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
 <a id="more"></a>
 <h3 id="Edit-root-config-yml"><a href="#Edit-root-config-yml" class="headerlink" title="Edit root _config.yml"></a>Edit root _config.yml</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git   </span><br><span class="line">  repo: &lt;repository url&gt;  <span class="comment">#https://sawakonotsadako.github.io/</span></span><br><span class="line">  branch: [branch] <span class="comment">#published (recommended master)</span></span><br><span class="line">  message: [message]  <span class="comment">#leave this blank</span></span><br></pre></td></tr></table></figure>
 <div class="note info">
-            <p>If your repository name has the type of <strong>yourname.github.io</strong>, please use master branch. Reason please refer to <a href="https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages" target="_blank" rel="noopener">GitHub Help <i class="fa fa-external-link"></i></a> </p>
+            <p>If your repository name has the type of <strong>yourname.github.io</strong>, please use master branch. Reason please refer to <span class="exturl" data-url="aHR0cHM6Ly9oZWxwLmdpdGh1Yi5jb20vZW4vYXJ0aWNsZXMvY29uZmlndXJpbmctYS1wdWJsaXNoaW5nLXNvdXJjZS1mb3ItZ2l0aHViLXBhZ2Vz" title="https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages">GitHub Help <i class="fa fa-external-link"></i><i class="fa fa-external-link"></i></span> </p>
           </div>
 <h3 id="Upload-your-site"><a href="#Upload-your-site" class="headerlink" title="Upload your site"></a>Upload your site</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<h3 id="Go-to-https-yourname-github-io-for-verification"><a href="#Go-to-https-yourname-github-io-for-verification" class="headerlink" title="Go to https://yourname.github.io for verification"></a>Go to <a href="https://yourname.github.io" target="_blank" rel="noopener">https://yourname.github.io</a> for verification</h3>
+<h3 id="Go-to-https-yourname-github-io-for-verification"><a href="#Go-to-https-yourname-github-io-for-verification" class="headerlink" title="Go to https://yourname.github.io for verification"></a>Go to <span class="exturl" data-url="aHR0cHM6Ly95b3VybmFtZS5naXRodWIuaW8=" title="https://yourname.github.io">https://yourname.github.io<i class="fa fa-external-link"></i></span> for verification</h3>
       
     </div>
 
@@ -623,7 +626,7 @@
                   
                     
                   
-                  <a href="https://github.com/sawakonotsadako" title="GitHub &rarr; https://github.com/sawakonotsadako" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i></a>
+                  <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3Nhd2Frb25vdHNhZGFrbw==" title="GitHub &rarr; https://github.com/sawakonotsadako"><i class="fa fa-fw fa-github"></i></span>
                 </span>
               
                 <span class="links-of-author-item">
@@ -632,7 +635,7 @@
                   
                     
                   
-                  <a href="mailto:yanglin24504@gmail.com" title="E-Mail &rarr; mailto:yanglin24504@gmail.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i></a>
+                  <span class="exturl" data-url="bWFpbHRvOjI0NTA0OTYxMTNAcXEuY29t" title="E-Mail &rarr; mailto:2450496113@qq.com"><i class="fa fa-fw fa-envelope"></i></span>
                 </span>
               
                 <span class="links-of-author-item">
@@ -641,16 +644,7 @@
                   
                     
                   
-                  <a href="https://weibo.com/sudamasakinothasaki" title="Weibo &rarr; https://weibo.com/sudamasakinothasaki" rel="noopener" target="_blank"><i class="fa fa-fw fa-weibo"></i></a>
-                </span>
-              
-                <span class="links-of-author-item">
-                  
-                  
-                  
-                    
-                  
-                  <a href="https://instagram.com/sudamasakinothasaki" title="Instagram &rarr; https://instagram.com/sudamasakinothasaki" rel="noopener" target="_blank"><i class="fa fa-fw fa-instagram"></i></a>
+                  <span class="exturl" data-url="aHR0cHM6Ly9pbnN0YWdyYW0uY29tL3N1ZGFtYXNha2lub3RoYXNha2k=" title="Instagram &rarr; https://instagram.com/sudamasakinothasaki"><i class="fa fa-fw fa-instagram"></i></span>
                 </span>
               
             </div>
@@ -703,7 +697,7 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+        <div class="copyright">&copy; 2016 – <span itemprop="copyrightYear">2019</span>
   <span class="with-love" id="animate">
     <i class="fa fa-user"></i>
   </span>
@@ -715,15 +709,9 @@
 </div>
 
 
-  <div class="powered-by">Powered by <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.8.0</div>
 
 
 
-  <span class="post-meta-divider">|</span>
-
-
-
-  <div class="theme-info">Theme – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.1.0</div>
 
 
 
@@ -744,6 +732,8 @@
     
       <div class="back-to-top">
         <i class="fa fa-arrow-up"></i>
+        
+          <span id="scrollpercent"><span>0</span>%</span>
         
       </div>
     
@@ -847,6 +837,8 @@
   
 
   
+  <script src="/js/exturl.js?v=7.1.0"></script>
+
 
   
 
