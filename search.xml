@@ -19,7 +19,7 @@
   <entry>
     <title><![CDATA[GitHub Pages with Hexo]]></title>
     <url>%2F2019%2F04%2F06%2Fgithub-pages-with-hexo%2F</url>
-    <content type="text"><![CDATA[Deploy your Hexo Blog to GitHub PagesInstall hexo-deployer-git1$ npm install hexo-deployer-git --save Edit root _config.yml12345deploy: type: git repo: &lt;repository url&gt; #https://sawakonotsadako.github.io/ branch: [branch] #published (recommended master) message: [message] #leave this blank If your repository name has the type of yourname.github.io, please use master branch. Reason please refer to GitHub Help Upload your site12$ hexo clean$ hexo deploy Go to https://yourname.github.io for verification]]></content>
+    <content type="text"><![CDATA[GitHub Pages Deploy your Hexo Blog to GitHub PagesInstall hexo-deployer-git1$ npm install hexo-deployer-git --save Edit root _config.yml12345deploy: type: git repo: &lt;repository url&gt; #https://sawakonotsadako.github.io/ branch: [branch] #published (recommended master) message: [message] #leave this blank If your repository name has the type of yourname.github.io, please use master branch. Reason please refer to GitHub Help Upload your site12$ hexo clean$ hexo deploy Go to https://yourname.github.io for verification]]></content>
       <categories>
         <category>GitHub Pages</category>
       </categories>
