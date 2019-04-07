@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[GitHub Pages with Hexo]]></title>
-    <url>%2F2019%2F04%2F06%2Fgithub-pages-with-hexo%2F</url>
-    <content type="text"><![CDATA[This documentation is based on Hexo Deployment &amp; GitHub Pages. Deploy your Hexo Blog to GitHub PagesInstall hexo-deployer-git1$ npm install hexo-deployer-git --save Edit root _config.yml12345deploy: type: git repo: &lt;repository url&gt; #https://sawakonotsadako.github.io/ branch: [branch] #published (recommended master) message: [message] #leave this blank Why recommend master branch? Please refer to GitHub Help Upload your site12$ hexo clean$ hexo deploy Go to https://sawakonotsadako.github.io for verification]]></content>
+    <title><![CDATA[Features in NexT]]></title>
+    <url>%2F2019%2F04%2F07%2Fhow-to-find-features-you-want-in-NexT%2F</url>
+    <content type="text"><![CDATA[NexT Docs .NexT Search . Enable Search functionInstall plugin hexo-generator-searchdb1$ npm install hexo-generator-searchdb --save Edit root _config.yml12345search: path: search.xml field: post format: html limit: 10000 Edit themes _config.yml12local_search: enable: true Restart &amp; Verify localhost:40001$ hexo server Or Install plugin hexo-generator-search1$ npm install hexo-generator-search Edit root _config.yml1234search: path: search.xml field: post content: true Edit themes _config.yml12local_search: enable: true Restart &amp; Verify localhost:40001$ hexo server Enable Copy functionEdit themes _config.yml123codeblock: copy_button: enable: true Restart &amp; Verify localhost:40001$ hexo server]]></content>
   </entry>
   <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F2019%2F04%2F05%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+    <title><![CDATA[Set up your own SS]]></title>
+    <url>%2F2019%2F04%2F06%2Fsetup-your-own-ss%2F</url>
+    <content type="text"><![CDATA[Create Vultr account &amp; ServerRegister with Vultr &amp; Verify your accountLogin Vultr Pay with AliPay Create your serversChoose Server Location Choose Server Type &amp; Server Size Choose Addtional Features, Startup Script &amp; SSH Keys Click Deploy Now &amp; Wait completion Connect to your cloud serverOpen CMD or PowerShell1$ ping &lt;IP Address&gt; SSH to your VPS1$ ssh root@&lt;IP Address&gt; Set up shadowsocks on cloud serverInstall Shadowsocks123$ wget --no-check-certificate -O shadowsocks.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks.sh$ chmod +x shadowsocks.sh$ ./shadowsocks.sh 2&gt;&amp;1 | tee shadowsocks.log Completed. Below is the sample output:12345678Congratulations, Shadowsocks-python server install completed!Your Server IP : xxx.xxx.xxx.xxxYour Server Port : xxxxxYour Password : xxxxxxYour Encryption Method: xxx-xxx-xxxWelcome to visit:https://teddysun.com/342.htmlEnjoy it! Get shadowsocks client for windowsDownload the latest Shadowsocks for windows Connect to your SS server using the output aboveCongratulations &amp; Have fun!]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[GitHub Pages with Hexo]]></title>
+    <url>%2F2019%2F04%2F06%2Fgithub-pages-with-hexo%2F</url>
+    <content type="text"><![CDATA[Deploy your Hexo Blog to GitHub PagesInstall hexo-deployer-git1$ npm install hexo-deployer-git --save Edit root _config.yml12345deploy: type: git repo: &lt;repository url&gt; #https://sawakonotsadako.github.io/ branch: [branch] #published (recommended master) message: [message] #leave this blank If your repository name has the type of yourname.github.io, please use master branch. Reason please refer to GitHub Help Upload your site12$ hexo clean$ hexo deploy Go to https://yourname.github.io for verification]]></content>
   </entry>
 </search>
